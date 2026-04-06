@@ -177,12 +177,9 @@
         <h1 class="section-title">Pokédex</h1>
         <p class="section-count">
             <i class="bi bi-collection me-1"></i>
-            Mostrando {{ count($pokemon) }} Pokémon
+            Mostrando {{ count($pokemon) }} Pokemon
         </p>
     </div>
-    <a href="{{ route('home') }}" class="btn btn-poke-secondary">
-        <i class="bi bi-house me-1"></i> Inicio
-    </a>
 </div>
 
 {{-- Grid de tarjetas --}}

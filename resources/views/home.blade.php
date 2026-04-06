@@ -42,19 +42,6 @@
         border: 30px solid rgba(255,255,255,0.02);
     }
 
-    .hero-number {
-        font-family: 'Press Start 2P', monospace;
-        font-size: 9rem;
-        color: rgba(255,255,255,0.04);
-        line-height: 1;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        user-select: none;
-        pointer-events: none;
-    }
-
     .hero-eyebrow {
         font-family: 'Press Start 2P', monospace;
         font-size: 0.6rem;
@@ -143,15 +130,11 @@
 @section('content')
 <section class="hero-section">
 
-    {{-- Decoración fondo --}}
+    {{-- Decoracion fondo --}}
     <div class="hero-pokeball-bg"></div>
-    <div class="hero-number">151</div>
 
     <div class="row align-items-center w-100">
         <div class="col-lg-7">
-
-            <p class="hero-eyebrow">&#9679; Pokédex Laravel v1.0</p>
-
             <h1 class="hero-title">
                 Descubre el mundo<br>
                 <span>Pokémon</span>
@@ -175,22 +158,6 @@
                     <i class="bi bi-lightning-fill me-2"></i>
                     Pokemon destacado
                 </a>
-            </div>
-
-            {{-- Stats pills --}}
-            <div class="stat-pills">
-                <span class="stat-pill">
-                    <i class="bi bi-collection-fill"></i>
-                    12 pokemones disponibles
-                </span>
-                <span class="stat-pill">
-                    <i class="bi bi-palette-fill"></i>
-                    Multiples tipos
-                </span>
-                <span class="stat-pill">
-                    <i class="bi bi-bar-chart-fill"></i>
-                    Estadisticas detalladas
-                </span>
             </div>
 
         </div>

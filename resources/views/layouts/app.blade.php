@@ -223,7 +223,7 @@
     </main>
 
     <footer>
-        <span>Pokédex Laravel &copy; {{ date('Y') }} &mdash; Unidad III – Herramientas para acelerar la construcción de software</span>
+        <span>Pokédex Laravel &copy; {{ date('Y') }} &mdash; Unidad III</span>
     </footer>
 
     {{-- Bootstrap 5 JS CDN --}}
